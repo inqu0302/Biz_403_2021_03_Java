@@ -15,7 +15,7 @@ public class Cont_06 {
 		System.out.println(strEng + "점수 : " +intEng);
 		
 		System.out.printf("%s : %d \n", strKor, intKor );
-		System.out.printf("%s : %d \n", strEng, intEng );
+		System.out.printf("%s : %d \n ", strEng, intEng );
 		
 		String strNation = "우리나라 대한민국";
 		

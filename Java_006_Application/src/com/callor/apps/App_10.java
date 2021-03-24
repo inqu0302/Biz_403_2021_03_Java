@@ -46,7 +46,7 @@ public class App_10 {
 		for(int i = 0 ; i < intNums.length ; i ++) {
 			
 			for(int j = i+1 ; j < intNums.length; j++) {
-				if (intNums[i] > intNums[i]) {
+				if (intNums[i] > intNums[j]) {
 					
 					int temp = intNums[i];
 					intNums[i] = intNums[j];

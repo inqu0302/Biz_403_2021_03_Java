@@ -9,6 +9,8 @@ public class App_05 {
 		EvenServiceV1 ev1 = new EvenServiceV1();
 		
 		ev1.makeNums();
-		ev1.printNumbers();
+		ev1.printEven();
+		ev1.sumEven();
+		
 	}
 }

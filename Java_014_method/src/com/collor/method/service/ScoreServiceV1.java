@@ -1,10 +1,11 @@
 package com.collor.method.service;
 
-public class ScoreServiceV1 {
 
-	InputServiceV1 isV1 = new InputServiceV1();
+public class ScoreServiceV1 {
+	
 	
 	public void inputScore (String title, int start, int end) {
+		InputServiceV1 isV1 = new InputServiceV1();
 		
 		Integer score = isV1.inputValue(title, start, end);
 		
@@ -16,4 +17,5 @@ public class ScoreServiceV1 {
 		
 		
 	}
+
 }

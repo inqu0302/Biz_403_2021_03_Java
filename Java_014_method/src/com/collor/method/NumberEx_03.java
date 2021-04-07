@@ -1,13 +1,20 @@
 package com.collor.method;
 
-import com.collor.method.service.ScoreServiceV1;
+import java.util.Scanner;
+
+import com.collor.method.service.InputServiceV2;
 
 public class NumberEx_03 {
 
 	public static void main(String[] args) {
 		
-		ScoreServiceV1 ssV1 = new ScoreServiceV1();
+		InputServiceV2 inService = new InputServiceV2();
+//		inService.inputValue("새우깡");
+//		inService.inputValue("새우깡", 0, 1000);
+		inService.inputValue("새우깡", 100);
 		
-		ssV1.inputScore("국어", 0, 100);
+		Scanner scan = new Scanner(System.in);
+		scan.nextLine();
+		// scan.close();
 	}
 }

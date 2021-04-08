@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/bizworks/javaworks/myJDK/InputServcie.jar"/>
+	<classpathentry kind="lib" path="C:/bizworks/javaworks/myJDK/ScoreService.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

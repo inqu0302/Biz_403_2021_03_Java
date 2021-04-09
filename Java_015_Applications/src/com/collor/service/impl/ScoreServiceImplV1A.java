@@ -84,7 +84,12 @@ public class ScoreServiceImplV1A implements ScoreService{
 		return null;
 	}
 	
-	private String inputNum() {
+	/*
+	 * 현재 클래스 내부에서만 호출되는 method private으로 선언한다.
+	 * 현재 클래스를 상속받아 확장하여 사용할 수 있도록 하려면
+	 * private => protected로 선언을 한다
+	 */
+	protected String inputNum() {
 		
 		
 		// 학번입력처리 : 001, 002 형식으로 입력받자
@@ -168,7 +173,7 @@ public class ScoreServiceImplV1A implements ScoreService{
 		scoreList.add(scoreVO);
 	}
 	
-	private String inputName(String strNum) {
+	protected String inputName(String strNum) {
 		// TODO 학번으로 보여주고 이름을 입력받는 method
 		
 		while(true) {

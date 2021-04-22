@@ -1,7 +1,7 @@
 # Java Project
 ## 2021-03-15
 
-##몇가지 용어
+## 몇가지 용어
 1. Enterprise : 회사, 기관, 단체, 전사(全社)
 2. ERP : Enterprise Resource Plan : 전사적 자원관리
 3. Java EE(Enterprise Edition) : ERP를 개발하는 데 사용할수 있는 Java 도구(tool)
